@@ -1,0 +1,109 @@
+
+  [
+    {
+      "id": "TuI1",
+      "title": "Illmatic",
+      "artist": "Nas",
+      "genre": "Hip-Hop",
+      "year": 1994
+    },
+    {
+      "id": "2uLP",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "genre": "Pop",
+      "year": 1982
+    },
+    {
+      "id": "gp3O",
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "genre": "Rock",
+      "year": 1977
+    },
+    {
+      "id": "sDf4",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "genre": "R&B",
+      "year": 2016
+    },
+    {
+      "id": "jKl5",
+      "title": "Legend",
+      "artist": "Bob Marley",
+      "genre": "Reggae",
+      "year": 1984
+    },
+    {
+      "id": "fhG6",
+      "title": "Random Access Memories",
+      "artist": "Daft Punk",
+      "genre": "Electronic",
+      "year": 2013
+    },
+    {
+      "id": "dS7n",
+      "title": "Off the Wall",
+      "artist": "Michael Jackson",
+      "genre": "R&B",
+      "year": 1979
+    },
+    {
+      "id": "gKl8",
+      "title": "Good Kid, M.A.A.D City",
+      "artist": "Kendrick Lamar",
+      "genre": "Hip-Hop",
+      "year": 2012
+    },
+    {
+      "id": "mkG9",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "genre": "Rock",
+      "year": 1980
+    },
+    {
+      "id": "eH1O",
+      "title": "Lemonade",
+      "artist": "Beyoncé",
+      "genre": "R&B",
+      "year": 2016
+    },
+    {
+      "id": "ix1C",
+      "title": "Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "genre": "Progressive Rock",
+      "year": 1973
+    },
+    {
+      "id": "Yi2u",
+      "title": "In the Lonely Hour",
+      "artist": "Sam Smith",
+      "genre": "Pop",
+      "year": 2014
+    },
+    {
+      "id": "Bs3v",
+      "title": "Greatest Hits",
+      "artist": "Bob Marley",
+      "genre": "Reggae",
+      "year": 1984
+    },
+    {
+      "id": "nI4m",
+      "title": "To Pimp a Butterfly",
+      "artist": "Kendrick Lamar",
+      "genre": "Hip-Hop",
+      "year": 2015
+    },
+    {
+      "id": "pHd5",
+      "title": "A Night at the Opera",
+      "artist": "Queen",
+      "genre": "Rock",
+      "year": 1975
+    }
+  ]
+  
