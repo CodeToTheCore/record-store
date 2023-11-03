@@ -1,109 +1,299 @@
-
-  [
-    {
-      "id": "TuI1",
-      "title": "Illmatic",
-      "artist": "Nas",
-      "genre": "Hip-Hop",
-      "year": 1994
-    },
-    {
-      "id": "2uLP",
-      "title": "Thriller",
-      "artist": "Michael Jackson",
-      "genre": "Pop",
-      "year": 1982
-    },
-    {
-      "id": "gp3O",
-      "title": "Rumours",
-      "artist": "Fleetwood Mac",
-      "genre": "Rock",
-      "year": 1977
-    },
-    {
-      "id": "sDf4",
-      "title": "Hotline Bling",
-      "artist": "Drake",
-      "genre": "R&B",
-      "year": 2016
-    },
-    {
-      "id": "jKl5",
-      "title": "Legend",
-      "artist": "Bob Marley",
-      "genre": "Reggae",
-      "year": 1984
-    },
-    {
-      "id": "fhG6",
-      "title": "Random Access Memories",
-      "artist": "Daft Punk",
-      "genre": "Electronic",
-      "year": 2013
-    },
-    {
-      "id": "dS7n",
-      "title": "Off the Wall",
-      "artist": "Michael Jackson",
-      "genre": "R&B",
-      "year": 1979
-    },
-    {
-      "id": "gKl8",
-      "title": "Good Kid, M.A.A.D City",
-      "artist": "Kendrick Lamar",
-      "genre": "Hip-Hop",
-      "year": 2012
-    },
-    {
-      "id": "mkG9",
-      "title": "Back in Black",
-      "artist": "AC/DC",
-      "genre": "Rock",
-      "year": 1980
-    },
-    {
-      "id": "eH1O",
-      "title": "Lemonade",
-      "artist": "Beyoncé",
-      "genre": "R&B",
-      "year": 2016
-    },
-    {
-      "id": "ix1C",
-      "title": "Dark Side of the Moon",
-      "artist": "Pink Floyd",
-      "genre": "Progressive Rock",
-      "year": 1973
-    },
-    {
-      "id": "Yi2u",
-      "title": "In the Lonely Hour",
-      "artist": "Sam Smith",
-      "genre": "Pop",
-      "year": 2014
-    },
-    {
-      "id": "Bs3v",
-      "title": "Greatest Hits",
-      "artist": "Bob Marley",
-      "genre": "Reggae",
-      "year": 1984
-    },
-    {
-      "id": "nI4m",
-      "title": "To Pimp a Butterfly",
-      "artist": "Kendrick Lamar",
-      "genre": "Hip-Hop",
-      "year": 2015
-    },
-    {
-      "id": "pHd5",
-      "title": "A Night at the Opera",
-      "artist": "Queen",
-      "genre": "Rock",
-      "year": 1975
-    }
-  ]
-  
+[
+  { "id": "2uLP",
+   "title": "Thriller",
+   "name": "Michael Jackson",
+   "artist": "Michael Jackson",
+   "genre": "Pop",
+   "year": 1982,
+   "priceInCents": 27.99,
+   "InStock": false,
+   "exclusive": true
+ },
+ {
+   "id": "uMi8",
+   "title": "Rich Forever",
+   "name": "Rick Ross",
+   "artist": "Ricky Rose`",
+   "genre": "Hip-Hop",
+   "year": 2020,
+   "priceInCents": 45,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "sDf4",
+   "title": "Hotline Bling",
+   "name": "Drake",
+   "artist": "Drake",
+   "genre": "R&B",
+   "year": 2016,
+   "priceInCents": 21.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "jKl5",
+   "title": "Legend",
+   "name": "Bob Marley",
+   "artist": "Bob Marley",
+   "genre": "Reggae",
+   "year": 1984,
+   "priceInCents": 25.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "fhG6",
+   "title": "Random Access Memories",
+   "name": "Draft Punk",
+   "artist": "Daft Punk",
+   "genre": "Electronic",
+   "year": 2013,
+   "priceInCents": 16.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "dS7n",
+   "title": "Off the Wall",
+   "name": "Michael Jackson",
+   "artist": "Michael Jackson",
+   "genre": "R&B",
+   "year": 1979,
+   "priceInCents": 45.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "gKl8",
+   "title": "Good Kid, M.A.A.D City",
+   "name": "Kendrick Lamar",
+   "artist": "Kendrick Lamar",
+   "genre": "Hip-Hop",
+   "year": 2012,
+   "priceInCents": 20.99,
+   "InStock": false,
+   "exclusive": true
+ },
+ {
+   "id": "mkG9",
+   "title": "Back in Black",
+   "name": "AC/DC",
+   "artist": "AC/DC",
+   "genre": "Rock",
+   "year": 1980,
+   "priceInCents": 30.99,
+   "InStock": false,
+   "exclusive": false
+ },
+ {
+   "id": "eH1O",
+   "title": "Lemonade",
+   "name": "Beyonce",
+   "artist": "Beyoncé",
+   "genre": "R&B",
+   "year": 2016,
+   "priceInCents": 26.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "ix1C",
+   "title": "Dark Side of the Moon",
+   "name": "Pink Floyd",
+   "artist": "Pink Floyd",
+   "genre": "Progressive Rock",
+   "year": 1973,
+   "priceInCents": 28.99,
+   "InStock": false,
+   "exclusive": true
+ },
+ {
+   "id": "Yi2u",
+   "title": "In the Lonely Hour",
+   "name": "Sam Smith",
+   "artist": "Sam Smith",
+   "genre": "Pop",
+   "year": 2014,
+   "priceInCents": 15.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "Bs3v",
+   "title": "Greatest Hits",
+   "name": "Bob Marley",
+   "artist": "Bob Marley",
+   "genre": "Reggae",
+   "year": 1984,
+   "priceInCents": 23.99,
+   "InStock": false,
+   "exclusive": true
+ },
+ {
+   "id": "nI4m",
+   "title": "To Pimp a Butterfly",
+   "name": "Kendrick Lamar",
+   "artist": "Kendrick Lamar",
+   "genre": "Hip-Hop",
+   "year": 2015,
+   "priceInCents": 26.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "pHd5",
+   "title": "A Night at the Opera",
+   "name": "Queen",
+   "artist": "Queen",
+   "genre": "Rock",
+   "year": 1975,
+   "priceInCents": 19.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "OUsk",
+   "title": "The Streets is Watching",
+   "name": "JayZ",
+   "artist": "JayZ",
+   "genre": "Hiphop",
+   "year": 1998,
+   "priceInCents": 56.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "gU_S",
+   "title": "The BluePrint",
+   "name": "JayZ",
+   "artist": "JayZ",
+   "genre": "Hiphop",
+   "year": 2001,
+   "priceInCents": 150.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "MBJ4",
+   "title": "DOGGY DOGGS WORLD",
+   "name": "Snoop Dogg",
+   "artist": "Snoop Dogg",
+   "genre": "Hiphop",
+   "year": 1996,
+   "priceInCents": 60.99,
+   "InStock": true,
+   "discountCode": true
+ },
+ {
+   "id": "JYix",
+   "title": "I Can Remeber",
+   "name": "MaryJBlidge",
+   "artist": "MaryJBlidge",
+   "genre": "Hiphop & R&B",
+   "year": 1996,
+   "priceInCents": 70.99,
+   "InStock": true,
+   "discountCode": false
+ },
+ {
+   "id": "Vaeh",
+   "title": "The Dog is Barking",
+   "name": "DMX",
+   "artist": "DMX",
+   "genre": "Hiphop",
+   "year": 1998,
+   "priceInCents": 89.99,
+   "InStock": true,
+   "discountCode": false
+ },
+ {
+   "id": "Gym4",
+   "title": "Get at me Dog",
+   "name": "DMX",
+   "artist": "DMX",
+   "genre": "Hiphop",
+   "year": 2002,
+   "priceInCents": 89.99,
+   "InStock": true,
+   "discountCode": false
+ },
+ {
+   "id": "o30s",
+   "title": "Your Love",
+   "name": "Nicki Minaj",
+   "artist": "Nicki Minaj",
+   "genre": "Hiphop",
+   "year": 2002,
+   "priceInCents": 89.99,
+   "InStock": true,
+   "discountCode": false
+ },
+ {
+   "id": "LRBX",
+   "title": "slim shady",
+   "name": "Eminen",
+   "artist": "Eminen",
+   "genre": "Hiphop",
+   "year": 2002,
+   "priceInCents": 90.99,
+   "InStock": true,
+   "discountCode": false
+ },
+ {
+   "id": "uYT9",
+   "title": "The Simpson's",
+   "name": "Bart Simpson",
+   "artist": "Bart Simpson",
+   "genre": "Rock",
+   "year": 1997,
+   "priceInCents": 28.99,
+   "InStock": true,
+   "exclusive": true,
+   "points": 10
+ },
+ {
+   "id": "gp3O",
+   "title": "Rumours",
+   "name": "The Simson's",
+   "artist": "Fleetwood Mac",
+   "genre": "Rock",
+   "year": 1977,
+   "priceInCents": 18.99,
+   "InStock": true,
+   "exclusive": true
+ },
+ {
+   "id": "nbV$",
+   "title": "The Simpson's",
+   "name": "Meggie Simpson",
+   "artist": "Meggie Simpson",
+   "genre": "Rock",
+   "year": 1997,
+   "priceInCents": 28.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "uGBs",
+   "title": "The Simpson's",
+   "name": "Meggie Simpson",
+   "artist": "Meggie Simpson",
+   "genre": "Rock",
+   "year": 1997,
+   "priceInCents": 28.99,
+   "InStock": true,
+   "exclusive": false
+ },
+ {
+   "id": "kNi1",
+   "title": "In class with elroy",
+   "name":"The Jetsons",
+   "artist": "The Jetsons",
+   "genre": "Rock",
+   "year": 1986,
+   "priceInCents": 38.99,
+   "InStock": true,
+   "exclusive": false
+ }
+]
